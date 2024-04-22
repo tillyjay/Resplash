@@ -1,0 +1,318 @@
+/*
+Theme Name: The Wave
+Theme URI: http://localhost:8080
+Author: Tilly Campbell - W0424641
+Description: This is a theme for NSCC webd3027 for a new website.
+Version: 1.0
+*/
+
+/* Theme styles go here */
+
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333; 
+    padding-top: 15px ; 
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-size: 2em; 
+    color: #fff; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link {
+    font-size: 1.5em; 
+    color: #fff;
+    margin-right: 0;
+    margin-left: 20px; 
+}
+
+.navbar {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: rgb(162, 7, 38);
+}
+
+/* Front Page Styling */
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+#front-category-title {
+    font-size: 2.5em;
+    margin: 5px 0px 20px 0px;
+}
+
+.front-page-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* Featured Post Styling */
+.front-page-container .featured-post{
+    margin-bottom: 30px;
+}
+
+.front-page-container .post-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.front-page-container .post-title, .post-titles-front {
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.front-page-container .author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.front-page-container .author-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Right Side Posts Styling */
+.front-page-container .right-col-group {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #161616; 
+    padding-bottom: 10px; 
+}
+
+.front-page-container .right-col-group:last-child {
+    border-bottom: none;
+}
+
+
+.front-page-container .post-titles-front {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.front-page-container .by {
+    display: none;
+}
+
+/* CSS for mobile */
+@media (max-width: 767px) {
+    .front-page-container .author-avatar {
+        display: none; 
+    }
+
+    .front-page-container .by {
+        display: inline-block;
+    }
+}
+
+
+
+/* Category Page Styling */
+.category-container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.category-container .category-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.category-container .post-item {
+    margin-bottom: 90px; 
+    padding-left: 15px; 
+    padding-right: 15px;  
+}
+
+.category-container .post-item .full-width-thumbnail {
+    width: 100%;
+    height: auto; 
+}
+
+.category-container .post-item .post-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.category-container .post-item .post-excerpt {
+    margin-bottom: 10px;
+}
+
+.category-container .post-meta {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.category-container .post-item .author-info {
+    display: flex;
+    align-items: center;
+}
+
+.category-container .author-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.category-container .author-name {
+    padding: 0px 15px 0px 5px;
+    position: relative;
+    border-right: 1px solid #000; 
+}
+
+.category-container .post-date {
+    margin-left: 10px;
+}
+
+
+
+
+/* Single Page Styling */
+.single-container{
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.single-container.category-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.single-container .post-item {
+    margin-bottom: 90px; 
+    padding-left: 15px; 
+    padding-right: 15px;  
+    border-bottom: 1px solid #161616;
+}
+
+.single-container .post-item .full-width-thumbnail {
+    width: 100%;
+    height: auto; 
+}
+
+.single-container .post-item .post-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.single-container .post-item .post-excerpt {
+    margin-bottom: 10px;
+}
+
+.single-container .post-meta {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.single-container .post-item .author-info {
+    display: flex;
+    align-items: center;
+}
+
+.single-container .post-excerpt {
+    font-weight: 600;
+}
+
+.single-container .author-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.single-container .author-name {
+    padding: 0px 15px 0px 5px;
+    position: relative;
+    border-right: 1px solid #000; 
+}
+
+.single-container .post-date {
+    margin-left: 10px;
+}
+
+.single-container .post-categories {
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+.single-container .post-tags {
+    font-size: .9em;
+}
+
+
+/* Page Styling */
+.page-container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.page-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer Styling */
+footer {
+    font-family: 'Roboto Slab', serif;
+    background-color: #333; 
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+footer .secondary {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+footer .nav-link:hover {
+    color: rgb(162, 7, 38);
+}
+
