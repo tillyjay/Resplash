@@ -1,0 +1,117 @@
+
+/* Single Post Author Display */
+.author-container {
+
+    display: flex;
+}
+
+.author-container .avatar-img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-container a,
+.author-hover-content a {
+    text-decoration: none;
+    color: black; 
+}
+
+.author-container a:hover,
+.author-hover-content a:hover {
+    text-decoration: none;
+    color: #267E7D;
+}
+
+a.author-link {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom:-10;
+    padding-bottom: 0;
+}
+
+a.author-nickname {
+    color: #929393;
+}
+
+a.author-nickname:hover {
+    color: black;
+}
+
+
+/* Author Hover Content */
+.author-avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.author-hover-wrapper {
+    display: none;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: fit-content; 
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.author-container:hover .author-hover-wrapper {
+    display: block;
+}
+
+.author-hover-content {
+    text-align: left;
+}
+
+.author-details-hover {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.author-hover-content h4 {
+    margin-bottom: 0px;
+}
+
+.author-hover-content p {
+    margin-bottom: 10px;
+}
+
+.author-hover-content a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.author-posts {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+
+.author-nickname-hover a {
+    color: #b9b9b9;
+}
+
+.author-nickname-hover a:hover {
+    color: black;
+}
+
+.view-profile {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.view-profile a {
+    display: block; 
+    width: 100%; 
+    height: 100%;
+}
+
+
