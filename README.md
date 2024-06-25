@@ -14,11 +14,10 @@ This website is a clone of the popular photo repository Unsplash. It allows the 
 - Bootstrap
 
 ## Lessons Learned 
-- Creating a WordPress plugin from scratch that displays the photographer's name and avatar with a hover effect showing the last three post by that photographer. It also displays below the post any other posts that have related tags.
+- Creating a WordPress plugin that displays the photographer's name and avatar with a hover effect showing the last three post by that photographer. It also displays below the post any other posts that have related tags.
 - Using Hooks and Filters to create an adapatable plugin for different themes and layouts.
 - Wordpress Theme development in order to display the photos in a specific design and utilize categories properly.
 - Improved my PHP programming skills by working with custom plugins and themes.
-- 
 
   ## Future Improvements
   - A place where the users can make comments on the photos.
